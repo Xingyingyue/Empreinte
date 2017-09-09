@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="20dp"
+    android:background="@drawable/background"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/head_example" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="260dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="昵称："/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="4dp"
+            android:background="#F2F2F2" >
+        </View>
+        <EditText
+            android:id="@+id/username_"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF"
+            android:drawablePadding="6sp"
+            android:hint="未能显示"
+            android:gravity="center_horizontal"
+            android:textColor="#3D3D3D"
+            android:textColorHint="#A3B1CA"
+            android:textSize="25sp" >
+        </EditText>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="4dp"
+            android:background="#F2F2F2" >
+        </View>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp">
+        </View>
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="性别："/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="4dp"
+            android:background="#F2F2F2" >
+        </View>
+        <EditText
+            android:id="@+id/modify_role_sex"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            android:drawablePadding="6sp"
+            android:textColorHint="#A3B1CA"
+            android:textSize="15sp" >
+        </EditText>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="4dp"
+            android:background="#F2F2F2" >
+        </View>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp">
+        </View>
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="年龄："/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="4dp"
+            android:background="#F2F2F2" >
+        </View>
+        <EditText
+            android:id="@+id/modify_role_age"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            android:drawablePadding="6sp"
+            android:inputType="textAutoComplete"
+            android:textColorHint="#A3B1CA"
+            android:textSize="15sp" >
+        </EditText>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="4dp"
+            android:background="#F2F2F2" >
+        </View>
+    </LinearLayout>
+    <Button
+        android:id="@+id/modify_role_button"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_blue"
+        android:gravity="center"
+        android:text="@string/modify_role_information_button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+</LinearLayout>

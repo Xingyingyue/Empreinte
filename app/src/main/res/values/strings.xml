@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Empreinte</string>
+    <string name="app_real_name">Empreinte</string>
+    <string name="app_sub_title">目标是，环游世界！</string>
+    <string name="login_hint_account">请输入登录账号</string>
+    <string name="login_hint_password">请输入登录密码</string>
+    <string name="login_button_forget_password">忘记密码?</string>
+    <string name="login_divide">---------第三方登录---------</string>
+
+    <string name="register_hint_phonenumber">请输入手机号码</string>
+    <string name="register_hint_password">请输入密码</string>
+    <string name="register_hint_verification_code">请输入验证码</string>
+    <string name="register_title">注册</string>
+
+    <string name="modify_role_information_button">确认修改</string>
+
+    <string name="forget_password_button">修改密码</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

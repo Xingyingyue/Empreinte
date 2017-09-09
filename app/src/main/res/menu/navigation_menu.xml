@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_role_setting"
+        android:title="角色信息设置"
+        android:icon="@drawable/user"/>
+    <item
+        android:id="@+id/nav_personal_info_setting"
+        android:title="账号信息设置"
+        android:icon="@drawable/setting"/>
+    <item
+        android:id="@+id/nav_publish_record"
+        android:title="游记历史记录"
+        android:icon="@drawable/page"/>
+    <item
+        android:id="@+id/nav_about"
+        android:title="关于我们"
+        android:icon="@drawable/about"/>
+
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    <include layout="@layout/edit_content_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <EditText
+                android:id="@+id/edit_content_title"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:textColorHint="@color/textColor"
+                android:textSize="20sp"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:background="@drawable/login_edittext_bg"
+                android:hint="标题："/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/content_et"
+                android:layout_width="320dp"
+                android:layout_height="120dp"
+                android:background="@drawable/login_edittext_bg"
+                android:layout_gravity="center_horizontal"
+                android:gravity="top"
+                android:hint="随手说出你此刻的心声..."
+                android:textColorHint="@color/textColor"
+                android:maxLength="500"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:textColor="@color/textColor"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="#E4E3E3" />
+
+            <GridView
+                android:layout_marginTop="20dp"
+                android:id="@+id/gridView1"
+                android:layout_width="340dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_content_shape_white"
+                android:layout_gravity="center_horizontal"
+                android:columnWidth="90dp"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:numColumns="4"
+                android:padding="10dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="5dp" >
+            </GridView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
